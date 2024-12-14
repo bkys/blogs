@@ -4,14 +4,14 @@ export default navbar([
   "/",
   "/demo/",
   {
-    text: "博文",
+    text: "编程技术",
     icon: "pen-to-square",
-    prefix: "/posts/",
+    prefix: "/biancheng/",
     children: [
       {
-        text: "苹果",
+        text: "前端",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "qianduan/",
         children: [
           { text: "苹果1", icon: "pen-to-square", link: "1" },
           { text: "苹果2", icon: "pen-to-square", link: "2" },
@@ -20,9 +20,9 @@ export default navbar([
         ],
       },
       {
-        text: "香蕉",
+        text: "后端",
         icon: "pen-to-square",
-        prefix: "banana/",
+        prefix: "houduan/",
         children: [
           {
             text: "香蕉 1",
@@ -38,10 +38,25 @@ export default navbar([
           "4",
         ],
       },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      {
+        text: "openwrt",
+        icon: "pen-to-square",
+        prefix: "openwrt/",
+        children: [
+          {
+            text: "香蕉 1",
+            icon: "pen-to-square",
+            link: "1",
+          },
+          {
+            text: "香蕉 2",
+            icon: "pen-to-square",
+            link: "2",
+          },
+          "3",
+          "4",
+        ],
+      },
     ],
   },
   {
