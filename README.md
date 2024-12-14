@@ -1,2 +1,0 @@
-# blogs
-bkys blog
