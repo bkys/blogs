@@ -42,6 +42,11 @@ jobs:
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
+<<<<<<< HEAD
+=======
+        env:
+          GITHUB_TOKEN:${{ secrets.ACCESS_TOKEN}}
+>>>>>>> 6e4fb87085b72f1d310a2e9c09441603aca0dc48
         with:
           # 部署文档
           branch: blog_pages
